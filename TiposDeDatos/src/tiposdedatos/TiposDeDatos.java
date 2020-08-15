@@ -51,6 +51,13 @@ public class TiposDeDatos {
         System.out.println("");
         System.out.println("Aquí se presenta una variable  de tipo String");
         System.out.println("A palavra é: " + palabra);
+        
+        //Ejemplo de una variable constante
+        final int constante = 45;
+        System.out.println("");
+        System.out.println("Aquí se presenta una variable constante");
+        System.out.println("O número é: " + constante);        
+        
     }
     
 }
