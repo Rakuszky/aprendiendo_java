@@ -15,6 +15,7 @@ public class TiposDeDatos {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        //Datos de tipo primitivo
         byte entero = 12;
         int entero2 = 2123456363;
         float decimal = 4.53f;
@@ -34,11 +35,22 @@ public class TiposDeDatos {
         System.out.println("Aquí se presenta una variable decimal de tipo double");
         System.out.println("Número decimal : " + decimal2);
         System.out.println("");
-        System.out.println("Aquí se presenta una variable decimal de tipo char");
+        System.out.println("Aquí se presenta una variable de tipo char");
         System.out.println("Caracter : " + caracter);  
         System.out.println("");
-        System.out.println("Aquí se presenta una variable decimal de tipo boolean");
+        System.out.println("Aquí se presenta una variable de tipo boolean");
         System.out.println("La desición es : " + decision);
+        
+        //Datos de tipo no primitivo
+        Integer numero = 15;
+        String palabra = "oi";
+        
+        System.out.println("");
+        System.out.println("Aquí se presenta una variable  de tipo Integer");
+        System.out.println("O número é: " + numero);
+        System.out.println("");
+        System.out.println("Aquí se presenta una variable  de tipo String");
+        System.out.println("A palavra é: " + palabra);
     }
     
 }
