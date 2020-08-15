@@ -15,9 +15,12 @@ public class HelloWorld {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hello world :D");
+        /* Acá se presentaran saludos en español y en inglés
+        De manera tal de aprender a hacer comentarios"
+        */
+        System.out.println("Hello world :D"); //Saludo en inglés
         System.out.println("");
-        System.out.println("Hola mundo");
+        System.out.println("Hola mundo");   //Saludo en español
         System.out.println("");
     }
     
